@@ -1,4 +1,4 @@
-# 🎯 React Toast Component Library
+# 🎯 Kalki UI React Toast Component Library
 > 🌟 A beautiful, customizable, and accessible toast notification system for React applications
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -167,4 +167,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by [Your Name/Organization]
+Made with ❤️ by [Kalki UI]
