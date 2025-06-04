@@ -1,7 +1,7 @@
 {
   "name": "kalki-ui-toast",
   "description": "A beautiful, customizable, and accessible toast notification system for React applications build by kalki ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ravi Teja Ladi",
   "license": "MIT",
   "repository": "https://github.com/RaviTeja884781/kalki-ui-toast",

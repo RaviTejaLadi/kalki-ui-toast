@@ -9,4 +9,5 @@ export type {
   ToastVariant,
   ToastProps,
   ToastContainerProps,
+  ToastPosition,
 } from "./components/types";

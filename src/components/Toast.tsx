@@ -9,7 +9,7 @@ const toastVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-white text-gray-800 border border-gray-300 shadow-sm",
+        default: "bg-white text-gray-800 border border-gray-300 shadow-lg",
         primary: "bg-blue-50 text-blue-800 border border-blue-200",
         secondary: "bg-gray-50 text-gray-800 border border-gray-200",
         success: "bg-green-50 text-green-800 border border-green-200",
@@ -50,10 +50,10 @@ export const Toast = forwardRef<HTMLDivElement, ToastProps>(
       variant = "default",
       message,
       onClose,
-      showClose = true,
+      showClose,
       autoClose = 5000,
       icon,
-      rounded = false,
+      rounded,
       className = "",
       style,
       id,
@@ -130,10 +130,10 @@ export const Toast = forwardRef<HTMLDivElement, ToastProps>(
           {showClose && (
             <button
               onClick={onClose}
-              className="flex-shrink-0 p-1.5 rounded-lg bg-inherit transition-colors ml-2"
+              className="flex-shrink-0 p-1.5 bg-inherit transition-colors ml-2"
               aria-label="Close"
             >
-              <X className="w-3.5 h-3.5" />
+              <X className="w-3 h-3" />
             </button>
           )}
         </div>

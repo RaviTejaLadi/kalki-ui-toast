@@ -25,7 +25,7 @@ const containerVariants = cva(
 
 export function ToastContainer({
   position = "bottom-right",
-  showClose = true,
+  showClose = false,
   rounded = false,
   className = "",
   style,
