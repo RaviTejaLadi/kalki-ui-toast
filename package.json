@@ -4,7 +4,11 @@
   "version": "1.0.1",
   "author": "Ravi Teja Ladi",
   "license": "MIT",
-  "repository": "https://github.com/RaviTeja884781/kalki-ui-toast",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/RaviTejaLadi/kalki-ui-toast"
+  },
+  "homepage": "https://kalki-ui-toast-docs.vercel.app/",
   "type": "module",
   "files": [
     "dist"
